@@ -1,0 +1,4 @@
+jaxfluids
+jaxfluids_nn
+jaxfluids_postprocess
+jaxfluids_thirdparty

@@ -1,0 +1,13 @@
+from jaxfluids.materials.single_materials import DICT_MATERIAL
+from jaxfluids.materials.mixture_materials import DICT_MIXTURE
+
+DYNAMIC_VISCOSITY_MODELS = (
+    "CUSTOM", "SUTHERLAND", "POWERLAW") # Add here
+
+THERMAL_CONDUCTIVITY_MODELS = (
+    "CUSTOM", "SUTHERLAND", "PRANDTL")
+
+CAVITATION_MIXTURE_PHASE_MODELS = (
+    "LINEAR", "FROZEN", "EQUILIBRIUM_LIQUID", "EQUILIBRIUM_FULL")
+
+CAVITATION_LIQUID_PHASE_MODEL = ("LINEAR", "TAIT")

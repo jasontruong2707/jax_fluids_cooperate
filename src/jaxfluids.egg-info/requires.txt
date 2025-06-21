@@ -1,0 +1,11 @@
+flax
+gitpython
+h5py
+jax
+jaxlib
+matplotlib
+numpy
+optax
+
+[cuda]
+jaxlib
